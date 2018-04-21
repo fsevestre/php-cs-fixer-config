@@ -1,0 +1,24 @@
+{
+  "name": "fsevestre/php-cs-fixer-config",
+  "description": "PHP CS Fixer config",
+  "keywords": ["CS", "CodingStyle"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Florent SEVESTRE"
+    }
+  ],
+  "homepage": "https://github.com/fsevestre/php-cs-fixer-config",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^2.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "FSevestre\\CS\\Config\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
