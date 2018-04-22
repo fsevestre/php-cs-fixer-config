@@ -55,7 +55,7 @@ cs-fix:
 	./vendor/bin/php-cs-fixer fix --verbose
 
 cs-ci:
-	./vendor/bin/php-cs-fixer fix --dry-run --using-cache=no --verbose
+	./vendor/bin/php-cs-fixer fix --dry-run --using-cache=no --verbose --show-progress=estimating
 ```
 
 ## Fixing issues
